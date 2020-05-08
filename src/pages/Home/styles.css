@@ -1,19 +1,24 @@
 ul.spot-list {
-  width: 100%;
+  width: 80%;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
   margin-bottom: 30px;
+  align-items: center;
 }
+
 img{
-  max-width: 100%;
+  max-width: 50%;
   max-height: 100%;
   display: block; /* remove extra space below image */
+  align-items: center;
 }
+
 ul.spot-list li {
   display: flex;
   flex-direction: column;
+
 }
 
 ul.spot-list li header {
@@ -25,13 +30,21 @@ ul.spot-list li header {
 
 ul.spot-list li strong {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: #444;
 }
+ul.spot-list li h5{
+  margin-top: 10px;
+  font-size: 16px;
+  color: #444;
+  text-decoration: line-through;
+}
+
 
 ul.spot-list li span {
   font-size: 16px;
   color: #999;
+  text-align: justify;
 }
 
 

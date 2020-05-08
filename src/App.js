@@ -2,14 +2,14 @@ import React from 'react';
 
 import './App.css';
 
-import logo from './assets/c-logo.svg';
+import logo from './assets/Desconto facil logo.svg';
 
 import Routes from './routes';
 
 function App() {
   return (
     <div className="container">
-      <img src={logo} alt="Desconto Fácil" />
+      <img style={{width:180, height:180}} src={logo} alt="Desconto Fácil" />
 
       <div className="content">
         <Routes />

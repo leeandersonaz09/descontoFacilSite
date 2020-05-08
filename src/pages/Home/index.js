@@ -31,7 +31,8 @@ const Home = ({ history }) => {
             <img src={(`${data.img}`)}></img>
             <strong>{data.produto}</strong>
             <span>{`${data.descricao}`}</span>
-            <strong>{`${data.valor}`}</strong>
+            <h5>{`${data.valor}`}</h5>
+            <h2 className="Price">{`${data.valor}`}</h2>
           </li>
         ))}
       </ul>
