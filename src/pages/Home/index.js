@@ -30,6 +30,7 @@ const Home = ({ history }) => {
           <li key={data.id}>
             <img src={(`${data.img}`)}></img>
             <strong>{data.produto}</strong>
+            <span>{`${data.descricao}`}</span>
             <span>{`${data.valor}`}</span>
           </li>
         ))}
