@@ -8,12 +8,6 @@ ul.spot-list {
   align-items: center;
 }
 
-img{
-  max-width: 50%;
-  max-height: 100%;
-  display: block; /* remove extra space below image */
-  align-items: center;
-}
 
 ul.spot-list li {
   display: flex;

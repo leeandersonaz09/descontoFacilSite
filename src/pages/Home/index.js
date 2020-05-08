@@ -28,7 +28,7 @@ const Home = ({ history }) => {
       <ul className="spot-list">
         {data.map(data => (
           <li key={data.id}>
-            <img src={(`${data.img}`)}></img>
+            <img style={{maxWidth:'50%', maxHeight:'100%', backgroundSize:'cover', borderRadius:4, display:'block'}} src={(`${data.img}`)}></img>
             <strong>{data.produto}</strong>
             <span>{`${data.descricao}`}</span>
             <h5>{`${data.valor}`}</h5>
